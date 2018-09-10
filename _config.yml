@@ -12,7 +12,7 @@ email: aakash3697@gmail.com
 description: Welcome to my website!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "aakashsasikumar.github.io" # the base hostname & protocol for your siter
-root: /
+root: /gsak
 
 # Logo settings
 logo-image-url: images/icon.svg

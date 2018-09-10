@@ -42,7 +42,7 @@ The weights of a neural network can be represented in a matrix. Assume there are
 |**input2**|val5|val6|val7|val8|
 |**input3**|val9|val10|val11|val12|
 
-<img src="{{site.baseurl}}/images/neuralNetworkMatrix.png" width="700" height="350">
+<img src="{{site.baseurl}}/images/neuralNetworkMatrix.png" width="100%" height="100%">
 
 Another benefit of representing weights in a matrix form is that, if we form a matrix out of the inputs, we jsut have to do matrix multiplication of these two and we get the output of the hidden layer.
 

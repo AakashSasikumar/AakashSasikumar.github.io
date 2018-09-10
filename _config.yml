@@ -13,7 +13,7 @@ description: A blog that covers the latest technologies
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your siter
 root: /
-permalink: pretty
+# permalink: pretty
 
 # Logo settings
 logo-image-url: images/icon.svg

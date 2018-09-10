@@ -2,8 +2,8 @@
 
 This is the repository for my blog.
 
-* Old Website: techanimo.wordpress.com
-* New Website: thegsak.tk or aakashsasikumar.github.io
+* Old Website: [techanimo.wordpress.com](techanimo.wordpress.com)
+* New Website: [thegsak.tk](thegsak.tk) or [aakashsasikumar.github.io](aakashsasikumar.github.io)
 
 ## Credits
 

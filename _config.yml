@@ -10,9 +10,9 @@ title: GSAK
 name: Aakash Sasikumar
 email: aakash3697@gmail.com
 description: Welcome to my website!
-baseurl: "/gsak" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "aakashsasikumar.github.io" # the base hostname & protocol for your siter
-root: /gsak
+root: /
 
 # Logo settings
 logo-image-url: images/icon.svg

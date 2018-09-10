@@ -10,7 +10,7 @@ title: GSAK
 name: Aakash Sasikumar
 email: aakash3697@gmail.com
 description: A blog that covers the latest technologies
-baseurl: "/gsak" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your siter
 root: /
 # permalink: pretty

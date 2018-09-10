@@ -34,7 +34,7 @@ Before we start coding, I would like to explain the 3 steps that happen when dat
 
 #### 1. Weight Multiplication
 
-The weights of a neural network can be represented in a matrix. Imagine you want to represent the weights between the input layer and the output layer. Also let us assume that there are 3 input nodes and 4 hidden nodes. Since this neural network is going to be a fully connected one, there are going to be 12 weight values totally.
+The weights of a neural network can be represented in a matrix. Assume there are two layers, the input layer and the hidden layer and we want to represent these weights in a matrix. Also let us assume that there are 3 input nodes and 4 hidden nodes. Since this neural network is going to be a fully connected one, there are going to be 12 weight values totally.
 
 |  | hidden1 | hidden2 | hidden3 | hidden4 |
 |---|---|---|---|
@@ -44,16 +44,16 @@ The weights of a neural network can be represented in a matrix. Imagine you want
 
 <img src="{{site.baseurl}}/images/neuralNetworkMatrix.png" width="700" height="350">
 
-Another benefit of representing weights in matrix form is that, if we form a matrix out of the inputs, all we have to do is matrix multiplication of these two and we get the output of the hidden layer.
+Another benefit of representing weights in a matrix form is that, if we form a matrix out of the inputs, we jsut have to do matrix multiplication of these two and we get the output of the hidden layer.
 
 Let's assume there are 3 input nodes, so we will have a 3x1 matrix.
-There are 4 hidden nodes so the weight matrix between the input and the output layers will be a 3x4 matrix. 
+There are 4 hidden nodes so the weight matrix between the input and the output layers will be a 3x4 matrix.
 
 If we multiply `transpose(inputMatrix) x weightMatrix` we will get a 1x4 matrix. These are the values that go into each of the hidden layer nodes after the weight is multiplied to each input and added up. You can see now how representing everything as matrices helps speed up the calculation as multiplication of the weights and the summing up of all the values is done in one single operation.
 
 #### 2. Adding Biases
 
-All the layers apart from the input layer have biases. These are simple 1xn matrices that hold the bias values. After the weight multiplication step is done, the bias matrix is simply added to it. This bias matrix can be thought as the `b` in a linear equation.
+All the layers apart from the input layer have biases. These are simple 1xn matrices that hold the bias values. After the weight multiplication step is done, the bias matrix is added to it. This bias matrix can be thought of as the `b` in a linear equation.
 
 #### 3. Activation
 

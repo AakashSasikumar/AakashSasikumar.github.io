@@ -9,10 +9,11 @@
 title: GSAK
 name: Aakash Sasikumar
 email: aakash3697@gmail.com
-description: Welcome to my website!
+description: A blog that covers the latest technologies
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your siter
 root: /
+permalink: pretty
 
 # Logo settings
 logo-image-url: images/icon.svg
@@ -33,3 +34,10 @@ markdown: kramdown
 
 # Layout settings
 home-link-in-menu: yes
+
+webmaster_verifications:
+  google: 02F1Oj_9bwFwBjfZBqElbZSrlqAJs9BaPsnl53MrJsY
+
+plugins:
+  - jekyll-seo-tag
+

@@ -3,7 +3,7 @@ layout: page
 title:  "Let's Scrape AZLyrics!"
 date:   2017-04-09
 displayDate: April 9, 2017
-categories: [java, web-scraping]
+categories: [java, coding, web-scraping]
 tags: [web-scraping, java, code, music, azlyrics, eclipse, intellij idea, oracle, jdk, jre, html]
 featuredImage: az-lyrics.jpg
 ---

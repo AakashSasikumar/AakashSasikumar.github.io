@@ -3,7 +3,7 @@ layout: page
 title:  "Web Scraping with Java"
 date:   2017-03-08
 displayDate: March 8, 2017
-categories: [java, web-scraping]
+categories: [java, coding, web-scraping]
 tags: [coding, Eclipse, Intellij-Idea, Java, jdk, jre, Oracle, scraping]
 featuredImage: webscraping-with-java.png
 ---

@@ -3,7 +3,7 @@ layout: page
 title:  "Building a Chatbot for Dummies"
 date:   2017-09-05
 displayDate: September 5, 2017
-categories: [java, chatbots]
+categories: [java, coding, chatbots]
 tags: [ java, chatbot, telegram, intelligent, echo-bot, echo, bot, intellij idea, jre, jdk, oracle]
 featuredImage: buildingChatbotFeatureImage.jpg
 ---

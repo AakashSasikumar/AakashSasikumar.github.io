@@ -11,8 +11,8 @@ name: Aakash Sasikumar
 email: aakash3697@gmail.com
 description: Welcome to my website!
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://aakashsasikumar.github.io" # the base hostname & protocol for your siter
-root: /gsak
+url: "" # the base hostname & protocol for your siter
+root: /
 
 # Logo settings
 logo-image-url: images/icon.svg

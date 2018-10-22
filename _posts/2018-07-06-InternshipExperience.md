@@ -2,7 +2,7 @@
 layout: page
 title:  "3 Things I Learnt During My Internship"
 date:   2018-07-06
-displayDate: July 6, 2017
+displayDate: July 6, 2018
 categories: [personal, experience, internship]
 tags: [ personal, experience, internship, research, thermo fisher, AI, machine learning]
 featuredImage: thermoFisherScientific.png

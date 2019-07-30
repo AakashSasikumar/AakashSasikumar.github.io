@@ -60,11 +60,9 @@ Here are the key intermediaries involved in trading,
 - `Depository Participant`: An agent to the depositories, most banks and few other services act as an agent allowing you to create DEMAT accounts and maintain them
 - `Clearing Corporations`: National Security Clearing Corporation Ltd (NSCCL) and Indian Clearing Corporation Ltd (ICCL) are owned by NSE and BSE respectively and they ensure a guaranteed settlement of transactions
 
-Yes, these names are hard to remember, but you would rarely have to deal with any of the intermediaries in real life except for the bank and the depository participant. The bank, obviously for the money that has to be credited or debited, and the depository participant to manage the DEMAT account.These days, technology has made the integration of all these parts seamless and a trader can make a trade easily without having to worry about all the in-between steps.
+Yes, these names are hard to remember, but you would rarely have to deal with any of the intermediaries in real life except for the bank and the depository participant. The bank, obviously for the money that has to be credited or debited, and the depository participant to manage the DEMAT account. These days, technology has made the integration of all these parts seamless and a trader can make a trade easily without having to worry about all the in-between steps.
 
 Now you might be wondering what a **DEMAT** account is. A bank account is where money is stored in an electronic format. Similarly, a DEMAT or a Dematerialized account is where shares are stored electronically and is linked to the account owner. All shares that are bought or sold are added or removed from the DEMAT account.
-
-`**Insert image showing how money goes from bank, to stock market, then share goes to depository participant, and how that participant puts it into your account, and how the clearance corps make sure this is legit and actually happens.**`
 
 ## Summing it Up
 

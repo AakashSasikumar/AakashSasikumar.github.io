@@ -2,3 +2,6 @@
 _drafts/
 .sass-cache
 _site/
+.history
+NOTES*
+_config.yml

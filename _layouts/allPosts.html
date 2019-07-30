@@ -6,20 +6,20 @@
 <body>
     {% include header.html %}
     <h1>{{ page.title }}</h1>
-    
+
     {% for post in site.posts %}
+    <a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
         <span class="image">
             <img src="{{ site.url }}{{ site.baseurl }}/images/{{post.featuredImage}}" alt="" width="75%" height="75%" />
         </span>
-        <a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
-            <h2>{{ post.title }}</h2>
-            <div class="content">
-                <p>{{ post.excerpt }}</p>
-            </div>
-        </a>
-        <br>
-        <hr>
-        <br>
+        <h2>{{ post.title }}</h2>
+        <div class="content">
+            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </div>
+    </a>
+    <br>
+    <hr>
+    <br>
     {% endfor %}
 
     {% include footer.html %}

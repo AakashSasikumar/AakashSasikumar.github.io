@@ -18,7 +18,7 @@ This blog post is intended to act as an introduction to my next blog post which 
 
 The image above is exactly what I’m going to be building, a three-layer, fully connected neural network with one input layer, one hidden layer, and one output layer. I offer flexibility in the number of neurons in each layer, and you can extract the weights of each neuron and modify it however you wish to do so.
 
-## How Does a Neural Netowrk Work?
+## How Does a Neural Network Work?
 
 Let’s us consider the linear equation
 

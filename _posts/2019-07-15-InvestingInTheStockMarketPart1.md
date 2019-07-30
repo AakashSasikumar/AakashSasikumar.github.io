@@ -46,7 +46,7 @@ In a very general sense, when people think that a company is going to do well in
 
 Now lets cover two important words in the trading world, if it seems that the prices are in an upward trend, it is called as a **bullish** trend. When it seems as if the prices are going to go down, then it is a **bearish** trend. Its called bullish because when a bull attacks, it bends down and attacks in an upward motion. Similarly, when a bear attacks, it has its claws at the top and swings it down.
 
-![BearishBullish]({{site.baseurl}}/images/investing/IntroBlog/BearBull.jpg)
+![BearishBullish]({{site.baseurl}}/images/Investing/IntroBlog/BearBull.jpg)
 
 ## Stock Markets in India
 

@@ -1,0 +1,15 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: Java
+  percentage: 70
+  color:
+
+- name: Artificial Neural Networks
+  percentage: 70
+  color: dark
+
+- name: Reinforcement Learning
+  percentage: 75
+  color: success

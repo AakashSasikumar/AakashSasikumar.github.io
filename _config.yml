@@ -1,0 +1,82 @@
+### Site Settings ###
+title               : GSAK
+description         : >-
+                      Research Engineer, TCS
+                      Research and Innovation
+baseurl             : ""
+repository          : AakashSasikumar/aakashsasikumar.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+  - documentation/docs.md
+  - documentation/elements.html
+
+
+### Author Info ###
+author:
+  name              : Aakash Sasikumar
+  image             : https://avatars1.githubusercontent.com/u/22096821?s=400&v=4
+  email             : aakash3697@gmail.com
+  github            : AakashSasikumar
+  linkedin          : aakash-sasikumar
+# youtube           : your_channel_name
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus: your-short-name-disqus                          # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: UA-125748885-1
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

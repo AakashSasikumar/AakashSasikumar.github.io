@@ -1,0 +1,19 @@
+<div class="col mt-4">
+  <div class="timeline-body">
+    {% for item in site.data.education %}
+    <div class="timeline-item">
+      <div class="content">
+        <h4>{{ item.title }}</h4>
+        <h5>{{item.school}}</h5>
+        <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+        <ul>
+          <li><b>{{item.gpa}}</b></li>
+          {% for point in item.points%}
+            <li>{{point}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

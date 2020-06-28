@@ -1,0 +1,15 @@
+- name: Machine Learning
+  percentage: 70
+  color: info
+
+- name: Data Analytics
+  percentage: 70
+  color: dark
+
+- name: Computer Vision
+  percentage: 60
+  color: success
+
+- name: Natural Language Processing
+  percentage: 65
+  color: danger

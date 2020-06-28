@@ -1,0 +1,27 @@
+- title: Research Engineer, TCS Research and Innovation
+  from: Jul 2019
+  to: present
+  points:
+    - Built an EV User Behavior and Traffic Simulator for the city of Luxembourg
+    - Developed dynamic pricing strategies to manage demand and charger supply for EVs
+    - Developed and implemented a Reinforcement Learning based algorithm
+      for dynamic pricing
+    - Developed a parallel execution system to help speed up and automate the training process
+    - Implemented mechanisms that ended up drastically speeding up simulation times
+    - Work published in ACM e-Energy
+
+- title: Research Intern, TCS Research and Innovation
+  from: Jan 2019
+  to: Jun 2019
+  points:
+    - Developed a Cyber Physical Model of Solar PV Arrays
+    - Built a test suite for inducing faults and analyzing behavior
+    - Developed an automated data retrieval system for model validation
+    - Test suite helped build novel fault detection algorithms for large scale pv arrays
+
+- title: Intern, Thermo Fisher Scientific
+  from: May 2018
+  to: Jul 2018
+  points:
+    - Helped automate the Thermo Scientific Spinnaker robotic arm
+    - Built a CNN pipeline to help the robotic arm locate and move hazardous chemicals

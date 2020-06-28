@@ -1,0 +1,13 @@
+<div class="col mt-4">
+    <div class="timeline-body">
+      {% for item in site.data.publications %}
+        <div class="timeline-item">
+          <div class="content">
+            <!-- <h2>{{ item.title }}</h2> -->
+            <!-- <h6 class="date">{{ item.date }}</h6> -->
+            <p><b><a href="{{item.link}}">{{item.title}}</a></b> {{ item.authors }} {{item.suffix}}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>

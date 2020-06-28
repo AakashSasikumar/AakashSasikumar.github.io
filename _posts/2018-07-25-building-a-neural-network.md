@@ -154,3 +154,5 @@ class NeuralNetwork():
 ```
 
 That's it, we have successfully implemented a simple neural network from scratch with just a few lines of code.
+
+You might ask why the hell isn't there back propagation? Well, in a future blog post, I'll cover something called neuroevolution. With this, we can throw out back propagation. There is even some research which states that neuroevoltion might be better.

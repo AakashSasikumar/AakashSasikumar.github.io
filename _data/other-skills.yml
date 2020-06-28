@@ -10,6 +10,6 @@
   percentage: 60
   color: success
 
-- name: Natural Language Processing
-  percentage: 65
+- name: NLP
+  percentage: 60
   color: danger

@@ -1,13 +1,8 @@
 # GSAK
 
-This is the repository for my blog.
-
-* Old Website: [techanimo.wordpress.com](https://techanimo.wordpress.com)
-* New Website: [thegsak.tk](http://thegsak.tk) or [aakashsasikumar.github.io](https://aakashsasikumar.github.io)
+My personal website and blog.
 
 ## Credits
 
-* I used a free theme theme provided by [HTML5 UP](https://html5up.net/) called Phantom
-* [Jekyll](https://jekyllrb.com/) an awesome ruby tool for static site generation
-* [Formspree.io](https://formspree.io/) contact form integration
-* [dot.tk](http://dot.tk) for free (for one year) .tk domain registration
+1. [Jekyll](https://jekyllrb.com/) for static site generation
+2. [porforlYou](https://github.com/YoussefRaafatNasry/portfolYOU) for the awesome theme

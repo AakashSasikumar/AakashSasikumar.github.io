@@ -10,3 +10,11 @@ Gemfile.lock
 
 # Log Files
 *.log
+
+TODO
+*.aux
+*.out
+*.tex
+*.gz
+*.bib
+*.sty

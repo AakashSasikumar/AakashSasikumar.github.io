@@ -18,3 +18,4 @@ TODO
 *.gz
 *.bib
 *.sty
+.DS_Store

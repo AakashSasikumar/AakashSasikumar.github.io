@@ -23,13 +23,12 @@ Let's take this even further. Whatever a child might end up doing, since the par
 
 > Parents are the root cause for all good deeds and sin in the world since they had complete control over what was to happen no matter what the outcome.
 
-If the creation of good deeds and sin can be controlled by choosing whether or not to procreate; Where did it originate?  Who did it come from? This creation of evil and good can theoretically be traced all the way back to our ancestors. For example, suppose Joseph Stalin's great-great-grandfather had chosen to live his whole life as a celibate. In that case, the deaths of thousands of people would have been avoided as Joseph Stalin wouldn't have ever been born. So, who was responsible for all good and evil? Was it the first pair of homo-sapiens, or was it the apes that we evolved from? It is rather entertaining when thinking about who or what all good and evil can be attributed to. Following the same thought process, one may attribute it to the creation of life, the creation of our planet or even the creation of the entire universe itself.
+If further creation or advancement of good deeds and sin can be controlled by choosing whether or not to procreate; Where did it originate?  Who did it come from? The creation of evil and good can theoretically be traced all the way back to our ancestors. For example, suppose Joseph Stalin's great-great-grandfather had chosen to live his whole life as a celibate. In that case, the deaths of thousands of people would have been avoided as Joseph Stalin wouldn't have ever been born. So, who was responsible for all good and evil? Was it the first pair of homo-sapiens, or was it the apes that we evolved from? It is rather entertaining when thinking about who or what all good and evil can be attributed to. Following the same thought process, one may attribute it to the creation of life, the creation of our planet or even the creation of the entire universe itself.
 
 So what does this all mean? Well, I came to three possible conclusions,
 
 1. Humanity should stop procreating. In effect, putting an end to all sin as well as good deeds.
-2. There is no such thing as good or evil. We are merely a part of a simulation, free will doesn't exist, and whatever has happened or will happen was already destined to happen.
+2. There is no such thing as good or evil. It's merely a figment of our imagination as we have no control over what will happen.
 3. I probably have way too much time on my hands and should be doing something more productive and getting on with life
 
-
-Options 1 and 2 are rather nihilistic, and I don't want them to be true as I am a firm believer of existentialism.  I am choosing to go with conclusion 3 for now (or was I always destined to choose 3?).
+Options 1 and 2 are rather nihilistic, and I don't want them to be true as I am a firm believer of existentialism.  I am choosing to go with conclusion 3 for now.

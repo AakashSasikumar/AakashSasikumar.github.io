@@ -4,6 +4,7 @@ tools: [Python, AI, Neural Networks, Computer Vision]
 image:
 description: An ANN based agent I made to play Minecraft on its own
 weight: 5
+date_range: Oct 2017 - Dec 2017
 ---
 
 # mAIncraft

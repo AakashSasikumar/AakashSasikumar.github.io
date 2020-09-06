@@ -17,5 +17,10 @@
         {%- endfor -%}
       </p>
     </div>
+    {%- if post_type != "external" -%}
+      <div class="card-footer {{ text_style }}">
+        {{ date_range }}
+      </div>
+    {%- endif -%}
   </a>
 </div>

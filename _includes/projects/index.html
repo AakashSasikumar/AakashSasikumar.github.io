@@ -25,7 +25,7 @@
     {%- assign project_name = titlecase | strip -%}
     {%- assign project_desc = project.description -%}
     {%- assign project_url  = project.html_url -%}
-
+    {%- assign date_range    = project.date_range -%}
     {% include projects/project-card.html %}
 
     <script>get_tools("{{ site.github.owner_name }}/{{ remote_project }}")</script>
@@ -42,7 +42,8 @@
     {%- assign project_name  = project.name -%}
     {%- assign project_desc  = project.description -%}
     {%- assign project_tools = project.tools -%}
-
+    {%- assign post_type     = project.post_type -%}
+    {%- assign date_range    = project.date_range -%}
     {%- if project.external_url -%}
       {%- assign project_url = project.external_url -%}
     {%- else -%}

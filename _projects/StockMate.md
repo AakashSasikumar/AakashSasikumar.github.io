@@ -4,6 +4,7 @@ tools: [Python, AI, Neural Networks, Reinforcement Learning, Stock Trading, Auto
 image: images/projects/stockmate/feature.png
 description: An application that makes training stock price predictors and trading agents easy.
 weight: 1
+date_range: June 2020 -
 ---
 
 # StockMate

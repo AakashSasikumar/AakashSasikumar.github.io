@@ -3,7 +3,7 @@ name: BlindVision
 tools: [Python, Computer Vision, Deep Learning, Object Detection]
 description: A research project I did during my undergrad to build a vision system that helps
              visually impaired people navigate.
-weight: 2
+weight: 3
 date_range: March 2017 - June 2018
 ---
 

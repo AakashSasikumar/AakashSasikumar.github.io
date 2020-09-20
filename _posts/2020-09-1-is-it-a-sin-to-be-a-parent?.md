@@ -3,7 +3,7 @@ title: Is it a Sin to Become a Parent?
 tags: [Philosophy, Thought Experiment]
 style: fill
 color: light
-description: Exploring how it might be a sin to become a parent.
+description: A thought experiment exploring the origin of sin and what it means to sin.
 ---
 
 I am pretty sure that you would be aware of what a good deed or sin is. Committing sins is terrible, and people should strive towards doing good deeds - or that's how the general understanding is. It is very subjective when trying to define sin and good deeds, I won't go into that in this blog. I'll try to explain how becoming a parent might be a sin and what it's implications are.

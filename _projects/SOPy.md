@@ -1,0 +1,244 @@
+---
+name: SOPy
+tools: [Python, Automation]
+image: images/projects/sopy/feature.png
+description: A tool to make managing Statement of Purposes much easier
+weight: 1
+date_range: September 2020
+---
+
+It's September 2020, the time when people start applying for graduate studies for Fall 2021. I too am applying for graduate studies, in fact, I am applying for a Masters in Computer Science.
+
+Applying for graduate studies is hard, you have to spend a lot of time for researching potential schools, Profs who you'd want to work with, fix you resume, and most importantly write a statement of purpose.
+
+Writing an SOP can be a daunting task for many, me included. I took around a month to write a decent SOP and I was still making changes every week. Luckily, I had identified some school I wanted to apply to, and had finished tailoring my SOP to each one. Some parts of the SOP were common across the board, and some weren't. I got tired of having to change each and every file each time I made minor changes to an SOP and so, I decided to make SOPy.
+
+# What is it?
+
+SOPy or **S**tatement **o**f **Py**thon (note how original and funny the title is /s) is an **open-source** (as pretty much all my projects are) Python package that helps you manage your SOPs for each program.
+
+It may not apply to everyone, but these are typically the components of an SOP,
+
+1. Introduction - Why you are interested in doing this
+2. Program Info - Why this program is suited for you
+3. Experience - How you are qualified for this program
+4. Conclusion - Reiteration of why you want to do this
+
+When it comes to writing SOPs for multiple programs using the aforementioned format, usually only the 2nd and 4th component would be different for each one.
+
+Now assume you are applying to 10 different programs and you've made an SOP tailored for each one. If you were to change components 1, or 3, you would have to sit and manually change all the 10 files you had made. This is both annoying and is prone to mistake.
+
+So, how do we dynamically create SOPs?
+
+## Enter SOPy...
+
+SOPy lets you create any number of SOPs as you want, and it will dynamically load all the right components and output the final SOP for each program.
+
+> Basically, SOPy lets you "import" different parts of your SOP to create a unique one.
+
+## Usage
+
+### Installing SOPy
+
+It is very easy to set up SOPy. Once you've installed Python you can install using pip as the code has been uploaded to [PyPi](https://pypi.org/project/sopy/).
+
+Run the following command
+
+```bash
+pip install sopy
+```
+
+### Importing Components
+
+First you need to modularize your SOP. For that, you need to identify the common components of your SOP. If you used the above format, the common parts would be 1, 3 and 4 (to some extent). Once you identify the common components, copy their text and save them in a separate file, say, `intro.txt`, `experience.txt`, `conclusion.txt`.
+
+For example, let's assume the following sample SOPs,
+
+My Harvard SOP:
+
+```text
+I am Aakash, a software developer who likes to develop software. This is my introduction.
+
+I like the AI course at Harvard so I think I am perfect for the MSCS program at Harvard. Please let me in.
+
+I have over three years of experience so I am more than qualified for this program.
+
+In conclusion, you have to take me into the MSCS program at Harvard.
+```
+
+My Stanford SOP:
+
+```text
+I am Aakash, a software developer who likes to develop software. This is my introduction.
+
+I like the CV course at Stanford so I think I am perfect for the MSCS program at Stanford. Please let me in.
+
+I have over three years of experience so I am more than qualified for this program.
+
+In conclusion, you have to take me into the MSc. CS program at Stanford.
+```
+
+Let me copy each university's program details and place it into `harvard.txt` and `stanford.txt`.
+
+Lets make a skeleton for our SOPs,
+
+{% raw %}
+
+`Harvard_Skeleton.txt`
+
+```text
+{% include "intro.txt" %}
+{% include "harvard.txt" %}
+{% include "experience.txt" %}
+{% include "conclusion.txt" %}
+```
+
+`Stanford_Skeleton.txt`
+
+```text
+{% include "intro.txt" %}
+{% include "stanford.txt" %}
+{% include "experience.txt" %}
+{% include "conclusion.txt" %}
+```
+
+{% endraw %}
+
+Now assume that magically this could be run and the intro, program details, experience and conclusion components magically came together. Thats basically what SOPy does.
+
+Theres one problem. Notice how the conclusion is basically the same for both programs but the University and program names are different.
+
+### Variables
+
+SOPy lets you place variables all over your SOP. Take `conclusion.txt` for example,
+
+`conclusion.txt`
+{% raw %}
+
+```text
+In conclusion, you have to take me into the {{program_name}} program at {{university_name}}.
+```
+
+{% endraw %}
+
+If you write your components like this, you can pass variables from Python and it will replace them with the text you provide. So, if you were to mention the University or program names or whatever it be, in the middle of your introduction, or experience or whatever; variables come to the rescue.
+
+### Compiling
+
+Now that you have the basic elements of using SOPy down, you are done with 95% of the work. It only takes 3 lines of code in Python to compile your SOP and save the final file.
+
+```python
+from sopy import Document
+
+harvSOP = Document("Harvard_Skeleton.txt", template_location="./")
+harvSOP.render_document(program_name="MSCS", university_name="Harvard")
+harvSOP.save_file("HarvardSOP.txt") # Saving Harvard SOP
+
+stanSOP = Document("Stanford_Skeleton.txt", template_location="./")
+stanSOP.render_document(program_name="MSc. CS", university_name="Stanford")
+stanSOP.save_file("StanfordSOP.txt") # Saving Harvard SOP
+
+```
+
+The `template_location` argument is used when you place all your common components in a different path from the base skeleton SOP. This argument is to tell SOPy where to look for the components if you were to import the different components.
+
+Now you should have two files that are identical to the samples mentioned above.
+
+So that's pretty much it. This is what SOPy does. Its a clean and elegant way to automate writing your SOP.
+
+### Limitations of SOP
+
+Currently SOPy only works with plaintext data. What that means is, it won't work with word documents since they are encoded in a different way. However, if enough people request support for Word file format, I will incorporate that. Send me a message on reddit or LinkedIn if that's something you'd want to see in SOPy.
+
+# But Wait. There's more...
+
+### LaTeX Support
+
+The skeleton structure of your SOP can be in a LaTeX format. Meaning you can compile the final output of SOPy using `pdflatex` or any other tool of your choice and your formatting would remain same.
+
+### Conditional Statements
+
+Well, if you wanna get a bit more creative, you can incorporate conditional statements into your base structure. Using the same example as above, we have two files for the program information, ie., `stanford.txt` and `harvard.txt`. Similarly, you would have to make two base skeletons for each program because you have two separate files for program details.
+
+To circumvent redundancy, write your skeleton like this,
+
+{% raw %}
+`Skeleton_SOP.txt`
+
+```text
+{% include "intro.txt" %}
+{% if university_name == "Harvard" %}
+{% include "harvard.txt" %}
+{%else%}
+{% include "stanford.txt" %}
+{% endif %}
+{% include "experience.txt" %}
+{% include "conclusion.txt" %}
+```
+
+{% endraw %}
+
+Once you pass the `university_name` parameter from Python, SOPy will check the values when the SOP gets created.Notice how we removed the need for two separate skeleton files by including a simple if statement.
+
+Now another problem remains. There are two files for the program details as well. Here is how we can remove that redundancy as well,
+
+{% raw %}
+`program_details.txt`
+
+```text
+{% if university_name == "Stanford %}
+I like the CV course at Stanford so I think I am perfect for the MSCS program at Stanford. Please let me in.
+{% else %}
+I like the AI course at Harvard so I think I am perfect for the MSCS program at Harvard. Please let me in.
+{% endif %}
+```
+
+{% endraw %}
+
+You can have a single file for all your program details for each university. In the above example, I've only shown two programs but the list can be extended to however many you want with the `elif` statement.
+
+SOPy was built using [Jinja2](https://jinja.palletsprojects.com/en/2.11.x/). Apart from conditional statements, there are loops and so much more. Please check this out to learn more about it. It may make SOP writing your SOP even easier.
+
+### Gizooglify Mode - The Flagship Feature of SOPy
+
+Gizoogle mode is the **flagship** feature of SOPy. During my undergraduate days, my friends and I used to find weird websites on the internet. Thats how my friend found [Gizoogle](http://www.gizoogle.net/index.php). This is a website that converts normal English into **gangsta slang**.
+
+We know graduate program applications is hectic and at time very stressful. We wanted people to have fun during these hard times, by allowing them to see how their SOP would look like if Snoop Dogg had written it.
+
+All you have to do it add the following argument to the `render_document` function.
+
+```python
+from sopy import Document
+
+harvSOP = Document("Harvard_Skeleton.txt", template_location="./")
+harvSOP.render_document(program_name="MSCS", university_name="Harvard", gizooglify=True)
+harvSOP.save_file("HarvardSOP.txt") # Saving Harvard SOP
+
+```
+
+Sample Original Text:
+
+```text
+I also have work experience that lends itself to the study of the book. After my freshman year of college I interned at the Chicago History Museum. Though I was in the visitor services department I was exposed to the preservation and archival departments of the museum and worked closely with the education department, which sparked my interest in archival collections and how museums present collection information to the public. After my sophomore year of college and into my junior year, I worked at Harvard’s rare books library, Houghton. At Houghton I prepared curated collections for archival storage. These collections were mostly comprised of the personal papers of noteworthy individuals, categorized into alphabetical folders. This experience made me very process-oriented and helped me to understand how collections come together on a holistic basis.
+```
+
+Sample Gangsta Slang:
+
+```text
+I also have work experience dat lendz itself ta tha study of tha book fo' realz. Afta mah freshman year of college I interned all up in tha Chicago History Museum. Though I was up in tha visitor skillz department I was exposed ta tha preservation n' archival departmentz of tha museum n' hit dat shiznit closely wit tha ejaculation department, which sparked mah interest up in archival collections n' how tha fuck museums present collection shiznit ta tha hood fo' realz. 
+Afta mah sophomore year of college n' tha fuck into mah junior year, I hit dat shiznit at Harvard’s rare books library, Houghton. I aint talkin' bout chicken n' gravy biatch fo' realz. At Houghton I prepared curated collections fo' archival storage. These collections was mostly comprised of tha underground paperz of noteworthy dudes, categorized tha fuck into alphabetical folders. This experience made me straight-up process-oriented n' helped mah crazy ass ta KNOW how tha fuck collections come together on a holistic basis.
+```
+
+I [wrote a post](https://www.reddit.com/r/StatementOfPurpose/comments/irzln5/sopy_an_opensource_python_package_for_easier_sop/?utm_source=share&utm_medium=web2x&context=3) on the [r/StatementOfPurpose](https://www.reddit.com/r/StatementOfPurpose/) subreddit and people seemed to like it. It didn't gain the traction I hoped it would, but it made at least one person's work easier. And that's more than enough for my satisfaction.
+
+Once I'm done with my admissions and assuming it goes well, I will upload the original and gizooglified versions of my SOP.
+
+# Warning
+
+> I do not condone submitting the gangsta version of your SOP. I cannot guarantee that this will help you in your graduate admissions endeavour.
+
+Or in other words,
+
+> Da pimperz of SOPy ain't gonna be held responsible fo' any shitty outcomes dis might cause yo' dirty ass.
+
+{% include elements/button.html link="https://github.com/AakashSasikumar/SOPy" text="View On Github" block=true %}

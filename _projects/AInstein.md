@@ -3,7 +3,7 @@ name: AInstein
 tools: [Python, NLP, AI, Neural Networks, Chatbot]
 image: images/projects/ainstein/voiceDemo.png
 description: A chatbot made for universities. Find out about faculty research interests, department details and much more with this chatbot.
-weight: 3
+weight: 4
 date_range: Aug 2018 - Jan 2019
 ---
 

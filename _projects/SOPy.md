@@ -7,13 +7,15 @@ weight: 1
 date_range: September 2020
 ---
 
+# SOPy
+
 It's September 2020, the time when people start applying for graduate studies for Fall 2021. I too am applying for graduate studies, in fact, I am applying for a Masters in Computer Science.
 
 Applying for graduate studies is hard, you have to spend a lot of time for researching potential schools, Profs who you'd want to work with, fix you resume, and most importantly write a statement of purpose.
 
 Writing an SOP can be a daunting task for many, me included. I took around a month to write a decent SOP and I was still making changes every week. Luckily, I had identified some school I wanted to apply to, and had finished tailoring my SOP to each one. Some parts of the SOP were common across the board, and some weren't. I got tired of having to change each and every file each time I made minor changes to an SOP and so, I decided to make SOPy.
 
-# What is it?
+## What is it?
 
 SOPy or **S**tatement **o**f **Py**thon (note how original and funny the title is /s) is an **open-source** (as pretty much all my projects are) Python package that helps you manage your SOPs for each program.
 

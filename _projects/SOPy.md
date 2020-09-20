@@ -9,7 +9,7 @@ date_range: September 2020
 
 # SOPy
 
-It's September 2020, the time when people start applying for graduate studies for Fall 2021. I too am applying for graduate studies, in fact, I am applying for a Masters in Computer Science.
+It's September 2020, the time when people start applying for graduate studies for Fall 2021. I too am applying for graduate studies. In fact, I am applying for a Masters in Computer Science.
 
 Applying for graduate studies is hard, you have to spend a lot of time for researching potential schools, Profs who you'd want to work with, fix you resume, and most importantly write a statement of purpose.
 

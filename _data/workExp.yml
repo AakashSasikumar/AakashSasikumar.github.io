@@ -1,6 +1,12 @@
+- title: Graduate Teaching Assistant
+  from: September 2021
+  to: present
+  points:
+    - TA for the CMPUT 174 course in Fall 2021
+
 - title: Research Engineer, TCS Research and Innovation
   from: Jul 2019
-  to: present
+  to: Aug 2021
   points:
     - Built an Electric Vehicle (EV) user behaviour and traffic simulator for Luxembourg
     - Developed dynamic pricing strategies to manage charging demand and charger supply

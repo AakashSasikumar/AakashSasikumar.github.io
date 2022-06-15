@@ -1,10 +1,11 @@
-- title: Masters in Computing Science
+- title: Masters in Computing Science (Thesis)
   school: University of Alberta
   from: 2021
   to: present
-  gpa: TBD
+  gpa: GPA TBD
   points:
     - Part of the thesis based masters program
+    - Working on my thesis under Prof. Omid Ardakanian
 
 - title: B.Tech Computer Science and Engineering
   school: Amrita School of Engineering
@@ -14,7 +15,7 @@
   points:
     - Top 10% of class
     - Graduated First Class With Distinction
-    - Worked under Prof. A. Baskar and published work in Procedia Computer Science
+    - Worked under Prof. A. Baskar and published a paper in Procedia Computer Science
 
 - title: 12th CBSE
   school: Suguna PIP School

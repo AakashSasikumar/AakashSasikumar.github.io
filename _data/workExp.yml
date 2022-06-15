@@ -1,27 +1,37 @@
-- title: Graduate Teaching Assistant
-  from: September 2021
-  to: present
+- title: Graduate Research Assistant, University of Alberta
+  from: May 2022
+  to: September 2022
   points:
-    - TA for the CMPUT 174 course in Fall 2021
+    - Working on my research under the supervision of Prof. Omid Ardakanian
+    - Working on applying RL to building control
+    - Focusing on achieving transfer learning through diversity
+    - Published work on transfer learning through diversity in ACM e-Energy `22
+
+- title: Graduate Teaching Assistant, University of Alberta
+  from: September 2021
+  to: April 2022
+  points:
+    - TA for CMPUT 174 in Fall 2021
+    - TA for CMPUT 275 in Winter 2022
 
 - title: Research Engineer, TCS Research and Innovation
   from: Jul 2019
   to: Aug 2021
   points:
-    - Built an Electric Vehicle (EV) user behaviour and traffic simulator for Luxembourg
+    - Built an Electric Vehicle (EV) user behavior and traffic simulator for Luxembourg
     - Developed dynamic pricing strategies to manage charging demand and charger supply
     - Developed a "Supply Uberization" solution, and published work in ACM e-Energy `20
-    - Developed and implemented Reinforcement Learning based algorithms
+    - Developed and implemented a Reinforcement Learning (RL) based algorithms
       for dynamic pricing
-    - Developed a parallel execution system to help cut training times drastically
+    - Published the work on dynamic pricing with RL to IEEE Intelligent Transportation System Magazine
 
 - title: Research Intern, TCS Research and Innovation
   from: Jan 2019
   to: Jun 2019
   points:
     - Worked on Cyber Physical Modelling for solar PhotoVoltaic (PV) cells
-    - Built a test suite for for analyzing behaviour of large scale solar PVs
-    - This test suite helped test existing, and develop novel fault detection and classification algorithms
+    - Built a test suite for for analyzing behavior of large scale solar PVs
+    - This test suite helped test existing fault detection and classification algorithms and develop new ones
 
 - title: Intern, Thermo Fisher Scientific
   from: May 2018

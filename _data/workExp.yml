@@ -2,27 +2,25 @@
   from: May 2022
   to: September 2022
   points:
-    - Working on my research under the supervision of Prof. Omid Ardakanian
+    - Working under the supervision of Prof. Omid Ardakanian
     - Working on applying RL to building control
-    - Focusing on achieving transfer learning through diversity
     - Published work on transfer learning through diversity in ACM e-Energy `22
 
 - title: Graduate Teaching Assistant, University of Alberta
   from: September 2021
   to: April 2022
   points:
-    - TA for CMPUT 174 in Fall 2021
-    - TA for CMPUT 275 in Winter 2022
+    - TA for CMPUT 174, Intro to Foundations of Computation, Fall 2021
+    - TA for CMPUT 275, Intro to Tangible Computing 1, Winter 2022
 
 - title: Research Engineer, TCS Research and Innovation
   from: Jul 2019
   to: Aug 2021
   points:
-    - Built an Electric Vehicle (EV) user behavior and traffic simulator for Luxembourg
-    - Developed dynamic pricing strategies to manage charging demand and charger supply
-    - Developed a "Supply Uberization" solution, and published work in ACM e-Energy `20
-    - Developed and implemented a Reinforcement Learning (RL) based algorithms
-      for dynamic pricing
+    - Built an Electric Vehicle (EV) user behavior and traffic simulator for the city of Luxembourg
+    - Developed dynamic pricing strategies to manage EV charging demand and supply
+    - Developed a "Supply Uberization" solution, and published our work in ACM e-Energy `20
+    - Developed and implemented Reinforcement Learning (RL) algorithms for dynamic pricing
     - Published the work on dynamic pricing with RL to IEEE Intelligent Transportation System Magazine
 
 - title: Research Intern, TCS Research and Innovation
@@ -30,12 +28,13 @@
   to: Jun 2019
   points:
     - Worked on Cyber Physical Modelling for solar PhotoVoltaic (PV) cells
-    - Built a test suite for for analyzing behavior of large scale solar PVs
-    - This test suite helped test existing fault detection and classification algorithms and develop new ones
+    - Built a test suite for for analyzing behavior of large scale solar PVs, e.g., solar farms
+    - This test suite helped generate data to validate existing, and develop new fault detection and classification algorithms
 
 - title: Intern, Thermo Fisher Scientific
   from: May 2018
   to: Jul 2018
   points:
     - Responsible for building an automation solution for the Thermo Scientific Spinnaker robotic arm
-    - Built a custom dataset and trained a CNN based object detectors to help the robotic arm identify specific locations on different Thermo Scientific Instruments
+    - Built a custom dataset and trained CNN object detectors to help the robotic arm identify specific locations on different Thermo Scientific Instruments
+    - This algorithm removes the need for manual calibration of these locations, and automates the entire process for transporting hazardous chemicals from/to various biomedical instruments

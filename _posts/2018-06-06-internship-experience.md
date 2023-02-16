@@ -1,8 +1,8 @@
 ---
 title: 3 Things I Learnt During My Internship
 tags: [Internship, Personal Experience]
-style: fill
-color: light
+style: 
+color: 
 description: In this post, I'll be sharing a few things I learnt during my internship at Thermo Fisher Scientific
 ---
 

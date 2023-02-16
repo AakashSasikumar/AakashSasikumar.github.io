@@ -1,11 +1,27 @@
-html{
+html {
   padding-left: calc(100vw - 100%);
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .badge {
   font-weight: 500;
+}
+
+.bg-light,
+.badge-light {
+  &,
+  * {
+    color: $text-black !important;
+  }
+}
+
+.bg-dark,
+.badge-dark {
+  &,
+  * {
+    color: $text-white !important;
+  }
 }

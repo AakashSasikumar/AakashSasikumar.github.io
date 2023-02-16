@@ -1,8 +1,8 @@
 ---
 title: Investing In The Stock Market Part 1
 tags: [Investing, Stock Market, Tutorial]
-style: fill
-color: light
+style: 
+color: 
 description: This blog should get you started on how the stock market works, and how to get started investing
 ---
 

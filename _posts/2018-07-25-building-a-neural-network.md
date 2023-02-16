@@ -1,8 +1,8 @@
 ---
 title: Building a Neural Network Library From Scratch with Python
 tags: [Python, Neural Networks, Tutorial]
-style: fill
-color: light
+style: 
+color: 
 description: This post will teach you how to make a simple and efficient neural network library from scratch.
 ---
 

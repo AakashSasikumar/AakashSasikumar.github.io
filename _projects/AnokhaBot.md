@@ -1,7 +1,7 @@
 ---
 name: AnokhaBot
 tools: [Python, NLP, AI, Neural Networks, Chatbot]
-image: images/projects/anokhabot/anokhabot2.png
+image: ../images/projects/anokhabot/anokhabot2.png
 description: A chatbot that I designed for our college's tech fest, Anokha 2018
 weight: 5
 date_range: Sept 2017 - Feb 2018

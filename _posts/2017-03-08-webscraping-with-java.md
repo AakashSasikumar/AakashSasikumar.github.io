@@ -1,8 +1,8 @@
 ---
 title: Webscraping with Java
 tags: [Java, Web Scraping, Tutorial]
-style: fill
-color: light
+style: 
+color: 
 description: In this blog post I will explain the basics of webscraping and the best tools you can use.
 ---
 

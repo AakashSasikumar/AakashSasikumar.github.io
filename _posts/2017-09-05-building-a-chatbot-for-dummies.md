@@ -1,8 +1,8 @@
 ---
 title: Building A Chatbot For Dummies
 tags: [Java, Chatbot, Tutorial]
-style: fill
-color: light
+style: 
+color: 
 description: I will teach you the basics of making an Echo Bot using the famous Telegram Bot API in Java.
 ---
 

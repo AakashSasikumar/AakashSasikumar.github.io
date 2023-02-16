@@ -1,8 +1,8 @@
 ---
 title: Let's Scrape AZ Lyrics!
 tags: [Java, Web Scraping, Tutorial]
-style: fill
-color: light
+style: 
+color: 
 description: In this blog post I will show you how to scrape AZLyrics to get the lyrics of any song you want instantly.
 ---
 

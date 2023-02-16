@@ -3,8 +3,9 @@ title               : GSAK
 description         : >-
                       Graduate Student,
                       University of Alberta
-baseurl             : ""
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : AakashSasikumar/aakashsasikumar.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -18,18 +19,31 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
-  - documentation/docs.md
-  - documentation/elements.html
 
 
 ### Author Info ###
 author:
   name              : Aakash Sasikumar
-  image             : images/aakash-profile-picture.jpg
+  image             : images/profile-pictures/aakash-profile-picture-new.jpg
   email             : aakash3697@gmail.com
   github            : AakashSasikumar
   linkedin          : aakash-sasikumar
+# dribbble          : your_username
+  # behance           : your_username
+  # facebook          : your_username
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  # medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  # twitter           : your_username
+# vimeo             : your_username
 # youtube           : your_channel_name
+# keybase           : your_username
 
 
 ### Posts ###
@@ -46,14 +60,25 @@ collections:
 
 
 ### Disqus ###
-disqus: your-short-name-disqus                          # Your website Shortname on disqus
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
-  enabled: true                                        # Set true to enable analytics
+  enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: UA-125748885-1
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
 
 
 ### Defaults for collections ###
@@ -73,6 +98,7 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
+
 
 ### Exclude from processing ###
 exclude:

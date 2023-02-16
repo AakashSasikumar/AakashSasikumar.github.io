@@ -1,8 +1,20 @@
+- title: Mitigating an adoption barrier of reinforcement learning-based control strategies in buildings,
+  date: 2023
+  link: https://doi.org/10.1016/j.enbuild.2023.112878
+  authors:  Aakash Krishna GS, Tianyu Zhang, Omid Ardakanian, Matthew E. Taylor,
+  suffix:   Energy and Buildings, 285, 112878
+
 - title: Diversity for Transfer in Learning-based Control of Buildings,
   date: 2022
   link: https://doi.org/10.1145/3538637.3539615
   authors:  Tianyu Zhang, Aakash Krishna GS, Mohammad Afshari, Petr Musilek, Matthew E. Taylor, Omid Ardakanian,
   suffix:   In Proceedings of the Thirteenth ACM International Conference on Future Energy Systems (e-Energy ’22)
+
+- title: A Dynamic Pricing System for Electric Vehicle Charging Management Using Reinforcement Learning,
+  date: 2022
+  link: https://doi.org/10.1109/MITS.2022.3198019
+  authors:  Ajay Narayanan, Aakash Krishna GS, Prasant Misra, Arunchandar Vasan, Venkatesh Sarangan,
+  suffix:   In the EEE Intelligent Transportation Systems Magazine
 
 - title: Uberizing the Charging Ecosystem for Electric Vehicles,
   date: 2020

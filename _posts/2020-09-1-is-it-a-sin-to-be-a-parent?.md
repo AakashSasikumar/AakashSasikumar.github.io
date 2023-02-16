@@ -1,8 +1,8 @@
 ---
 title: Is it a Sin to Become a Parent?
 tags: [Philosophy, Thought Experiment]
-style: fill
-color: light
+style: 
+color: 
 description: A thought experiment exploring the origin of sin and what it means to sin.
 ---
 

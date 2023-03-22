@@ -2,16 +2,17 @@
   school: University of Alberta
   from: 2021
   to: present
-  gpa: GPA TBD
+  # gpa: GPA TBD
   points:
-    - Part of the thesis based masters program
-    - Working on my thesis under Prof. Omid Ardakanian
+    - Working on applying Reinforcement Learning for building control
+    - Worked on two publications
+    - Recipient of the Alberta Graduate Excellence Scholarship (AGES)
 
 - title: B.Tech Computer Science and Engineering
   school: Amrita School of Engineering
   from: 2019
   to: 2015
-  gpa: 9.3 / 10 GPA
+  # gpa: 9.3 / 10 GPA
   points:
     - Top 10% of class
     - Graduated First Class With Distinction
@@ -21,7 +22,7 @@
   school: Suguna PIP School
   from: 2014
   to: 2015
-  gpa: 96.5%
+  # gpa: 96.5%
   points:
     - Top 5% in school
     - Received Adarsh Vidyarthi Award (Given to class toppers)

@@ -12,7 +12,15 @@
 #   points:
 #     - TA for CMPUT 174, Intro to Foundations of Computation, Fall 2021
 #     - TA for CMPUT 275, Intro to Tangible Computing 1, Winter 2022
-
+- title: Graduate Research Assistant, University of Alberta
+  from: May 2022
+  to: Present
+  points:
+    - Helped develop a novel RL-based algorithm for reducing cost of training building Heating Ventilation and Air Conditioning (HVAC) system control policies
+    - Our algorithm reduces energy consumption by up to 30\% depending on the building
+    - Used Weights and Biases to track and visualize experiments
+    - Published our work in peer-reviewed journals and conferences
+  
 - title: Research Engineer, TCS Research and Innovation
   from: Jul 2019
   to: Aug 2021
@@ -36,5 +44,6 @@
   to: Jul 2018
   points:
     - Responsible for building an automation solution for the Thermo Scientific Spinnaker robotic arm
-    - Built a custom dataset and trained CNN object detectors to help the robotic arm identify specific locations on different Thermo Scientific Instruments
-    - This algorithm removes the need for manual calibration of these locations, and automates the entire process for transporting hazardous chemicals from/to various biomedical instruments
+    - Built a custom dataset and trained a CNN based object detector to help it identify specific locations on different Thermo Scientific instruments
+    - This robot removes the need for saving these locations manually and automates the entire process for transporting hazardous chemicals from/to various biomedical instruments
+    - Optimized the deep learning model to run on a low-power embedded system

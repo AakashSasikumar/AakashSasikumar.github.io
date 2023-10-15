@@ -4,8 +4,9 @@
   to: present
   # gpa: GPA TBD
   points:
-    - Working on applying Reinforcement Learning for building control
-    - Worked on two publications
+    - Wrote a thesis titled "Policy Selection for Transfer Learning in the Building Control Domain"
+    - Worked with Dr. Omid Ardakanian and Dr. Matthew E. Taylor
+    - Specialization in applied reinforcement learning (RL)
     - Recipient of the Alberta Graduate Excellence Scholarship (AGES)
 
 - title: B.Tech Computer Science and Engineering
@@ -16,7 +17,7 @@
   points:
     - Top 10% of class
     - Graduated First Class With Distinction
-    - Worked under Prof. A. Baskar and published a paper in Procedia Computer Science
+    # - Worked under Prof. A. Baskar and published a paper in Procedia Computer Science
 
 - title: 12th CBSE
   school: Suguna PIP School

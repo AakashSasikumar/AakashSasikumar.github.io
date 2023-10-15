@@ -10,6 +10,12 @@
   authors:  Tianyu Zhang, Aakash Krishna GS, Mohammad Afshari, Petr Musilek, Matthew E. Taylor, Omid Ardakanian,
   suffix:   In Proceedings of the Thirteenth ACM International Conference on Future Energy Systems (e-Energy ’22)
 
+- title: Using Deep Learning for Whole Slide Image Prostate Cancer Diagnosis and Grading in South Florida Veteran Population,
+  date: 2021
+  link: https://doi.org/10.1093/ajcp/aqab191.301
+  authors:  Jayaratne, N., Aakash Krishna GS, Subasinghe, S., Borkowski, A., Mastorides, S., Thomas, L., ... DeLand, L.
+  suffix:   In American Journal of Clinical Pathology (Vol. 156, pp. S141-S141)
+
 - title: A Dynamic Pricing System for Electric Vehicle Charging Management Using Reinforcement Learning,
   date: 2022
   link: https://doi.org/10.1109/MITS.2022.3198019
